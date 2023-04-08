@@ -1,0 +1,39 @@
+*{
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+}
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	background-color: whitesmoke;
+}
+.download-btn{
+	background-color: blueviolet;
+border-radius: 5px;
+	border: none;
+	outline: none;
+	padding: 16px 20px;
+	box-shadow: 0 0 5px 5px darkcyan;
+	color: white;
+	cursor: pointer;
+}
+.download-btn .icon{
+font-size: 2rem;
+}
+
+.download-btn .text{
+font-size: 2rem;
+padding-left: 1rem;
+}
+.download-btn.timer{
+	background: none;
+	color: black;
+	box-shadow: none;
+	font-size: 3rem;
+}
+.download-btn.timer b{
+color: blueviolet;
+}
